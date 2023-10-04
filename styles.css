@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#table {
+    display: flex;
+    position: absolute;
+    border: none;
+    background: transparent;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+input {
+    border: none;
+    color: white;
+    outline: none;
+    width: 100px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#cell-0, #cell-1, #cell-3, #cell-4  {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+}
+
+#cell-2, #cell-5 {
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+#cell-6,#cell-7 {
+    border-right: 5px solid rgb(255, 255, 255);
+}
+
+.persons{
+    display: flex;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 450px;
+}
+.person {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#alpha-x, #alpha-o {
+    border: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
